@@ -1,8 +1,10 @@
 function setup() {
 	createCanvas(480, 420);
+	
 }
 
 function draw() {
+	background(204)
 	if
 	(mouseIsPressed) {
     	fill(30, 40, 0);
@@ -20,3 +22,10 @@ function drawline() {
 	else (fill)
     
 }
+draw = function() {
+	background(204);
+	ellipse(mouseX, mouseY, 1, 1);
+	var label = float(mouseX) +" , "+ float(mouseY);
+	text(label, mouseX +10, mouseY +10);
+ };
+ 
