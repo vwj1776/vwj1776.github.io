@@ -1,31 +1,24 @@
 function setup() {
-	createCanvas(480, 420);
-	
+	createCanvas(1525, 725);
 }
-
 function draw() {
-	background(204)
-	if
+    if
 	(mouseIsPressed) {
-    	fill(30, 40, 0);
-	} else {
-    	fill(200);
-	}
-	ellipse(mouseX,mouseY,80);
-}
-
-function drawline() {
-	if (mouseIsPressed) {
-    	fill(10, 10, 90)
-    	stroke(255,204,100)
-	}
-	else (fill)
-    
-}
-draw = function() {
-	background(204);
-	ellipse(mouseX, mouseY, 1, 1);
-	var label = float(mouseX) +" , "+ float(mouseY);
-	text(label, mouseX +10, mouseY +10);
- };
+        fill(255, 0, 0);
+        line(mouseX, mouseY, pmouseX, pmouseY); 
+        stroke(255, 0, 0);
+  }
+};
  
+       
+ //background(255, 255, 255);
+ //ellipse(mouseX, mouseY, 1, 1);
+ //var label = float(mouseX) +" , "+ float(mouseY);
+ //text(label, mouseX +10, mouseY +10);
+// function setup() {
+  //  createCanvas(1525, 725); 
+   // strokeWeight(5);  
+   // stroke(0, 102); }
+//function draw() {  
+    //line(mouseX, mouseY, pmouseX, pmouseY); 
+
