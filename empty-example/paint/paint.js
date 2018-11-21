@@ -2,12 +2,21 @@ function setup() {
 	createCanvas(1525, 725);
 }
 function draw() {
-    if
-	(mouseIsPressed) {
+    if (mouseIsPressed) {
+        if(mouseButton === RIGHT) {
+            cursor(CROSS);
+            noStroke();
+            fill(255, 255, 255);
+            ellipse(mouseX, mouseY, 20, 20);
+        }
+        else {
+        cursor(HAND);
         fill(255, 0, 0);
         line(mouseX, mouseY, pmouseX, pmouseY); 
         stroke(255, 0, 0);
-  }
+        }
+
+   }
 };
  
        
